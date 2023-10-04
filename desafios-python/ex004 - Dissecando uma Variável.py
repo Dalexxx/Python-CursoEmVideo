@@ -1,4 +1,3 @@
-
 n = input('Digite algo: ')
 print('O tipo do valor é: ', type(n))
 print('É uma alfabético? ', n.isalpha())
