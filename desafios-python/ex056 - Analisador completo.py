@@ -11,15 +11,15 @@ for c in range(1,5):
     print(f'----- {c}° PESSOA -----')
     nome = input('Nome: ').strip()
     idade = int(input('Idade: '))
-    sexo = input('Sexo [M/F]: ').upper().strip()
+    sexo = input('Sexo [M/F]: ').strip()
     if sexo in 'Ff' and idade <= 20:
         mulher += 1
     media += idade
-    if c == 1 and sexo == 'M':
+    if c == 1 and sexo in 'Mn':
         maior = idade
         nomeolder = nome
     else:
-        if idade > maior and sexo == 'M':
+        if idade > maior and sexo in 'Mn':
             maior = idade
             nomeolder = nome
 
