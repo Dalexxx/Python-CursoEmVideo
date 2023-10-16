@@ -13,4 +13,4 @@ while cont is not 11:
         pausa = int(input('Quantos termos você quer mostrar a mais?'))
         cont -= pausa
     tot += 1
-print(f' Progressão finalizada com {tot} termos mostrados')
+print(f' Progressão finalizada com {tot} termos mostrados.')
