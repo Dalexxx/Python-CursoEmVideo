@@ -1,0 +1,6 @@
+times = ('Botafogo', 'Bragantino', 'Flamengo', 'Palmeiras', 'Atletico-PR', 'Grêmio', 'Atlética-MG', 'Fortaleza', 'Fluminense', 'São Paulo')
+print(f'Lista de time do Brasileirão: {times}')
+print(f'O 5 primeiros são: {times[:5]}')
+print(f'Os 4 últimos são: {times[-4:]}')
+print(f'Times em ordem alfabética: {sorted(times)}')
+print(f'O {times[7]} está na {times.index('Fortaleza')+1} posição')
