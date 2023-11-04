@@ -1,4 +1,6 @@
-import random
-num = (1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
-sortnum = random.random(num)
-print(sortnum)
+from random import randint
+n = (randint(1,10), randint(1,10), randint(1,10), randint(1,10), randint(1,10))
+print(f'Eu sorteei os valores: {n}')
+print(f'O maior valor sorteado foi {max(n)}')
+print(f'O menor valor sorteado foi {min(n)}')
+
