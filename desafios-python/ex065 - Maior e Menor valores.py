@@ -6,6 +6,7 @@ while continuar:
     tot += num
     if cont == 1:
         maior = menor = num
+        print()
     else:
         if num > maior:
             maior = num
